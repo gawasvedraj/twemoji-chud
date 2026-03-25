@@ -8,31 +8,6 @@ The Twemoji library offers support for all Unicode-defined emoji which are recom
 
 ## Usage
 
-### Install via NPM
-
-Run the following inside of your already-initialized project:
-
-```bash
-npm install @twemoji/api
-```
-
-### CDN Support
-
-Default CDN support is provided via [jsDelivr](https://www.jsdelivr.com/).
-
-Use the following in the `<head>` tag of your HTML document(s):
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
-```
-
-This guarantees that you will always use the latest version of the library.
-
-If, instead, you'd like to include the latest version explicitly, you can add the following tag:
-```html
-<script src="https://cdn.jsdelivr.net/npm/@twemoji/api@17.0.2/dist/twemoji.min.js" integrity="sha384-ffx6atwP+2a1uHhw+XT6uAGhdssJviyWfbhOgvzJqE1X+qUM1Aq3mS3WW70vSq6S" crossorigin="anonymous"></script>
-```
-
 ### Download
 
 If instead you want to download a specific version, please look at the `gh-pages` branch, where you will find the built assets for both our latest and older versions.
@@ -45,7 +20,7 @@ Following are all the methods exposed in the `twemoji` namespace.
 
 This is the main parsing utility and has 3 overloads per parsing type.
 
-Although there are two kinds of parsing supported by this utility, we recommend you use [DOM parsing](https://github.com/jdecked/twemoji#dom-parsing), explained below. Each type of parsing accepts a callback to generate an image source or an options object with parsing info.
+Although there are two kinds of parsing supported by this utility, we recommend you use [DOM parsing](https://github.com/gawasvedraj/twemoji-chud#dom-parsing), explained below. Each type of parsing accepts a callback to generate an image source or an options object with parsing info.
 
 The second kind of parsing is string parsing, explained in the legacy documentation [here](LEGACY.md#string-parsing). This is unrecommended because this method does not sanitize the string or otherwise prevent malicious code from being executed; such sanitization is out of scope.
 
@@ -67,7 +42,7 @@ var img = div.querySelector('img');
 // note the div is preserved
 img.parentNode === div; // true
 
-img.src;        // https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/72x72/2764.png
+img.src;        // https://cdn.jsdelivr.net/gh/gawasvedraj/twemoji-chud@latest/assets/72x72/2764.png
 img.alt;        // \u2764\uFE0F
 img.className;  // emoji
 img.draggable;  // false
@@ -142,7 +117,7 @@ twemoji.parse(genericNode, {
 });
 ```
 
-This will generate urls such `https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/2764.svg` instead of using a specific size based image.
+This will generate urls such `https://cdn.jsdelivr.net/gh/gawasvedraj/twemoji-chud@latest/assets/svg/2764.svg` instead of using a specific size based image.
 
 ## Utilities
 
@@ -264,7 +239,7 @@ The goal of this project is to simply provide emoji for everyone. We definitely 
 
 The rules for contributing are available in the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
-Thank you to all of our [contributors](https://github.com/jdecked/twemoji/graphs/contributors).
+Thank you to all of our [contributors](https://github.com/gawasvedraj/twemoji-chud/graphs/contributors).
 
 ## License
 

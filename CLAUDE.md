@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Twemoji (`@twemoji/api`) is a library that converts Unicode emoji characters into `<img>` tags pointing to Twitter-style emoji images. It supports both DOM element parsing and string parsing, with assets served via jsDelivr CDN.
+Twemoji (`twemoji-chud`) is a library that converts Unicode emoji characters into `<img>` tags pointing to Twitter-style emoji images. It supports both DOM element parsing and string parsing, with assets served via jsDelivr CDN.
 
 ## Commands
 
@@ -57,7 +57,7 @@ The library exposes: `parse()` (main entry—accepts string or DOM element), `re
 
 ### Image URL Pattern
 
-Default CDN pattern: `https://cdn.jsdelivr.net/gh/jdecked/twemoji@{VERSION}/assets/{SIZE}/{CODEPOINT}.{EXT}`
+Default CDN pattern: `https://cdn.jsdelivr.net/gh/gawasvedraj/twemoji-chud@{VERSION}/assets/{SIZE}/{CODEPOINT}.{EXT}`
 
 ## gh-pages Publishing Workflow
 

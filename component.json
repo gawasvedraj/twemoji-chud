@@ -1,9 +1,9 @@
 {
   "version": "1.3.2",
-  "name": "@twemoji/api",
+  "name": "twemoji-chud",
   "license": ["MIT", "CC-BY-4.0"],
   "description": "A Unicode standard based way to implement emoji across all platforms.",
-  "homepage": "https://github.com/jdecked/twemoji",
+  "homepage": "https://github.com/gawasvedraj/twemoji-chud",
   "keywords": [
     "emoji",
     "DOM",
@@ -13,7 +13,7 @@
     "Twitter",
     "unicode"
   ],
-  "repository": "jdecked/twemoji",
+  "repository": "gawasvedraj/twemoji-chud",
   "main": "twemoji.js",
   "scripts": [
     "twemoji.js"

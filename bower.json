@@ -1,5 +1,5 @@
 {
-  "name": "@twemoji/api",
+  "name": "twemoji-chud",
   "description": "A Unicode standard based way to implement emoji across all platforms.",
   "main": "./2/twemoji.amd.js",
   "ignore": [
@@ -12,8 +12,8 @@
     "!LICENSE",
     "!README.md"
   ],
-  "twemoji": "git://github.com/jdecked/twemoji.git#gh-pages",
-  "homepage": "https://github.com/jdecked/twemoji",
+  "twemoji": "git://github.com/gawasvedraj/twemoji-chud.git#gh-pages",
+  "homepage": "https://github.com/gawasvedraj/twemoji-chud",
   "moduleType": [
     "amd"
   ],
